@@ -1,0 +1,23 @@
+现场演示：双击 START_SHOWCASE.cmd，打开本地网页工作台。
+网页地址：http://127.0.0.1:8765；请保持服务终端开启。
+左栏：拖放/选择案例ZIP、原始SKP、校园成品SKP，也可直接用内置示例。
+中栏：运行参数、真实源代码、实时日志与执行阶段。
+右栏：三维网格预览、结果下载、用SketchUp打开文件。
+命令行演示双击 START_SHOWCASE_CLI.cmd，打开项目目录并激活本机Python环境。
+按讲解节奏逐条输入：python step1.py、python step2.py、python step3.py、python step4.py、python step5.py。
+每条命令只执行一个步骤，完成后回到终端；不会自动执行下一步、不弹网页。
+CLI终端提示统一为英文。
+五步完成后输入数字0并按Enter打开产物文件夹；输入Q并按Enter退出。
+用SketchUp打开campus_final_showcase.skp。真实推理时间与键盘操作时间分开记录。
+详细操作与讲解顺序：docs/SHOWCASE.md。
+
+流程：校验观测和权重 → 现场执行已训练任务头 → 输出预测几何/六角点 → 展示完整校园成品 → 查看运行记录。
+不现场训练，不改写权重。原README按要求保留。
+
+GitHub发布文件在dist：
+Zip2CAD1.0-Showcase-source.zip：源码和公开任务头。
+Zip2CAD1.0-Showcase-library-demo.zip：单独发布的图书馆演示数据包，解压到源码根目录。
+新电脑还需按docs/SHOWCASE.md安装运行环境。
+
+本机已备好图书馆案例和运行环境，可直接启动。
+现场预测SKP与预先保存的完整校园成品分开输出，不把复制成品描述成网络即时生成整个校园。

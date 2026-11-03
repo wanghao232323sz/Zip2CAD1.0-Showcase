@@ -1,0 +1,1 @@
+{"framework":"Python stdlib HTTP server + vanilla HTML/CSS/JS + offline WebGL","existing_sources":["src/zip2cad/showcase.py"],"preserved":{"fonts":"system sans and monospace","palette":"light green-grey"},"macrostructure":"Workbench","theme":"Garden-adapted existing palette","audience":"graduation supervisor","use":"local live inference","tone":"precise and calm"}
